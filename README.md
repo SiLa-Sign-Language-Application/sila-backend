@@ -22,6 +22,7 @@ API Backend untuk **SiLa – Sign Language Application**, aplikasi pengenalan Ba
 3. Install dependensi:
    ```bash
    pip install -r requirements.txt
+   python main.py
    ```
 4. Buat folder `model/` dan tambahkan:
    - `gesture_mlp_model.h5` — file model terlatih
