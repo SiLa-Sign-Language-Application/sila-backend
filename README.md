@@ -16,7 +16,7 @@ API Backend untuk **SiLa – Sign Language Application**, aplikasi pengenalan Ba
 1. Clone repositori ini
    ```bash
    git clone https://github.com/SiLa-Sign-Language-Application/sila-backend.git
-   cd sila-frontend
+   cd sila-backend
    ```
 2. Buat dan aktifkan environment virtual:
    ```bash
