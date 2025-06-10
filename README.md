@@ -18,7 +18,7 @@ API Backend untuk **SiLa – Sign Language Application**, aplikasi pengenalan Ba
    git clone https://github.com/SiLa-Sign-Language-Application/sila-backend.git
    cd sila-frontend
    ```
-2.Buat dan aktifkan environment virtual:
+2. Buat dan aktifkan environment virtual:
    ```bash
    python -m venv venv
    source venv/bin/activate  # di Windows: venv\Scripts\activate
