@@ -14,20 +14,24 @@ API Backend untuk **SiLa – Sign Language Application**, aplikasi pengenalan Ba
 ## Langkah Instalasi
 
 1. Clone repositori ini
-2. Buat dan aktifkan environment virtual:
+   ```bash
+   git clone https://github.com/SiLa-Sign-Language-Application/sila-backend.git
+   cd sila-frontend
+   ```
+2.Buat dan aktifkan environment virtual:
    ```bash
    python -m venv venv
    source venv/bin/activate  # di Windows: venv\Scripts\activate
    ```
-3. Install dependensi:
+4. Install dependensi:
    ```bash
    pip install -r requirements.txt
    ```
-4. Buat folder `model/` dan tambahkan:
+5. Buat folder `model/` dan tambahkan:
    - `gesture_mlp_model.h5` — file model terlatih
    - `label.json` — file mapping label ke karakter
 
-5. Jalankan server lokal:
+6. Jalankan server lokal:
    ```bash
    uvicorn main:app --reload
    python main.py
