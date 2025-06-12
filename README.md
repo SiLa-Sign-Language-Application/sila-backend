@@ -90,13 +90,6 @@ PORT=8000
 - Pastikan folder `model/` dan file model tersedia di server.
 - Uvicorn akan menggunakan `PORT` dari variabel lingkungan.
 
-## Rencana Pengembangan
-
-- Menambahkan endpoint `/health` untuk monitoring
-- Implementasi autentikasi (contoh: JWT)
-- Dukungan input sekuensial (untuk model CNN 1D / LSTM)
-- Logging prediksi dan versi model
-
 ## Struktur Proyek
 
 ```
